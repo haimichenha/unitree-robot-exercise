@@ -14,5 +14,3 @@
 - 没有修改 RoboJuDo 的源码；仅移除了上游 Git 元数据目录 `.git/`，并在本仓库父目录新增本声明、使用说明和自有实验代码；
 - 上游 `.gitmodules` 已保留，但其可选子模块未初始化或复制。需要时请在该目录根据 `submodule_cfg.yaml` 运行 `python submodule_install.py`；
 - 该快照共有 238 个文件、194,267,118 字节。以“相对路径 + SHA-256”排序后再 SHA-256 的聚合树摘要为：`982fb3ed0bf4cec63bb367fdffdfe42f32b444ab54e2c1eb454d0d3ac3cd0bc8`。
-
-本仓库其余的 `代码/vm_source/` 是本次实训的 H1/ACT/MuJoCo/验证工程代码；二者分别存放，避免把 RoboJuDo 误表述为本项目原创代码。
