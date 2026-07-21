@@ -13,7 +13,7 @@
 | `视频/` | `H1_ACT_fixedpose_模型推理_30秒_20fps.mp4` | ACT 固定物体位姿条件下的模型推理记录；仅说明该条件下的回放，不应表述为红棒交接成功。 |
 | `视频/` | `H1_红棒传递_专家轨迹_20秒_30fps.mp4` | H1 红棒传递的专家采集轨迹，用于说明数据采集任务；不是 ACT 推理结果。 |
 | `证据/` | `G1_策略切换关键帧.png` / `.log` | 关键帧和可解析运行日志；日志记录配置、帧数、键位映射、切换时刻及轨迹。 |
-| `代码/` | `vm_source/` 与 `unitree_robot_exercise_code_20260721.zip` | 从虚拟机工作区逐项同步的自编/适配脚本和 CPU 配置；不包含第三方上游源码、模型权重或数据集。 |
+| `代码/` | `vm_source/`、`.zip` 与 `.tar.gz` | 从虚拟机同步的完整实验源码树：ACT、H1 数据采集、MuJoCo/IK、验证及训练监控，共 50 个源文件/模型 XML；不包含训练数据、检查点或外部项目克隆。 |
 
 ## G1 行走—舞蹈切换的可核查结论
 
@@ -24,12 +24,17 @@
 
 ## 代码来源、复现与外部引用
 
-代码从虚拟机中的 `~/unitree_h1_learn` 工作区同步，保留的仅是本次实验所需脚本：
+代码从虚拟机中的 `~/unitree_h1_learn` 工作区同步。`代码/vm_source/` 保留完整的本次实验源码树，而非只保留 4 个脚本：
 
-1. `record_robojudo_g1_loco_dance_switch.py`：固定时长离屏录制并验证策略切换；
-2. `run_robojudo_beyondmimic_evidence.py`：有界步数运行并导出 PNG 证据；
-3. `analyze_hdf5.py`：检查 HDF5 采集数据的结构；
-4. `config.cpu.yaml`：无 CUDA 的虚拟机 CPU 训练配置。
+1. `ACT/`：训练、推理、DETR/VAE 网络、工具函数、12000 轮 ResNet-34 配置与 CPU 配置；
+2. `DataCollecter/`：H1 采集、动作策略和 HDF5 检查；
+3. `Mujoco_env/`：H1 MuJoCo 环境、IK、KDL 工具、机器人封装及必要 XML；
+4. `validation/`：专家轨迹、HDF5、G1 舞蹈及行走—舞蹈切换的证据脚本；
+5. `project_execution/scripts/`：训练监控脚本。
+
+同一源码树提供 `unitree_robot_exercise_source_20260721.zip`（Windows）和 `unitree_robot_exercise_source_20260721.tar.gz`（虚拟机原始归档）两种打包格式。`代码/代码说明.md` 给出目录级说明。
+
+`代码/来源与边界.md` 明确区分了“本次提交的实验工程代码”和外部依赖：**RoboJuDo 仅作为被使用的外部仓库说明，不复制其源码；本仓库提交的是本次 H1/ACT/验证工程以及对 RoboJuDo 的调用与证据适配代码。**
 
 G1 策略切换依赖外部上游项目 **[HansZ8/RoboJuDo](https://github.com/HansZ8/RoboJuDo)**。本提交包记录的上游版本为 `ed7601f`。RoboJuDo 的源码、模型、资源和许可证文件**未被复制到本仓库**；复现实验时应自行从上游仓库获取，并遵守其许可证与依赖说明。上游 README 所示交互命令为：
 

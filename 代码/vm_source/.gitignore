@@ -1,0 +1,24 @@
+# MuJoCo specific
+MUJOCO_LOG.TXT
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# python
+*.pyc
+*.pyo
+__pycache__
+
+# Data files
+*.jpg
+*.so
+dataset/
+ckpt_models/
+Data_transfer/
+# Environment
+.env
+.venv

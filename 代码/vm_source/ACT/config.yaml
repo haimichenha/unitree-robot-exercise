@@ -1,0 +1,43 @@
+
+# general settings
+ckpt_dir: "ACT/ckpt_models_medium_resnet34"
+num_epochs: 12000
+save_every: 250
+
+temporal_agg: True
+
+policy_class: "ACT"
+backbone: 'resnet34'
+
+seed: 1
+
+# record settings
+dataset_dir:  /DataCollecter/dataset_transmitting_red_stick/
+num_episodes:     # leave empty here by default
+episode_len:       # leave empty here by default
+camera_names: ['angle','top']  
+xml_dir:          # leave empty here by default
+
+# transformer settings                         
+state_dim: 32            
+action_dim: 32      
+lr_backbone: 0.00001        
+
+enc_layers: 2
+dec_layers: 3
+nheads: 8
+
+qpos_noise_std: 0
+DT: 0.02
+
+# DO NOT CHANGE IF UNNECESSARY
+lr: 0.00005             
+kl_weight: 10                        
+hidden_dim: 256
+dim_feedforward: 1024
+chunk_size: 32
+batch_size: 1
+
+
+resume_ckpt:
+start_epoch: 0
