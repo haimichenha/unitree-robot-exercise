@@ -1,0 +1,22 @@
+# Keep the verified, small deliverables in this repository. Do not add raw data,
+# checkpoints, caches, virtual environments, or complete third-party clones.
+*.hdf5
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+checkpoints/
+ckpt_models*/
+dataset*/
+RoboJuDo/
+GR00T/
+*.log
+!证据/G1_策略切换运行日志.log

@@ -1,0 +1,1767 @@
+[36m07-20 21:08:18.217 [DEBUG] [robojudo] ========== robojudo-1.5.0 init done ==========
+[0m
+[Registry][robojudo.pipeline] RlLocoMimicPipeline, total: 3
+[Pipeline] Dynamic import of Pipeline: RlLocoMimicPipeline
+[32m07-20 21:08:18.219 [INFO] [robojudo.pipeline.base_pipeline] Using device: cpu[0m
+[Registry][robojudo.environment] MujocoEnv, total: 1
+[Environment] Dynamic import of environment: MujocoEnv
+[36m07-20 21:08:18.413 [DEBUG] [robojudo.tools.kinematics] Loaded model from /home/hiamichenha/RoboJuDo/assets/robots/g1/g1_29dof_rev_1_0.xml[0m
+[36m07-20 21:08:18.414 [DEBUG] [robojudo.tools.kinematics] [MujocoKinematics] set fk with 29 joints[0m
+[32m07-20 21:08:18.414 [INFO] [robojudo.utils.rotation] base set to pos: [0. 0. 0.], quat: [0. 0. 0. 1.][0m
+[Registry][robojudo.controller] KeyboardCtrl, total: 1
+[Controller] Dynamic import of controller: KeyboardCtrl
+[Registry][robojudo.policy] AMOPolicy, total: 1
+[Policy] Dynamic import of policy: AMOPolicy
+[36m07-20 21:08:18.918 [DEBUG] [robojudo.policy.base_policy] Loading jit from /home/hiamichenha/RoboJuDo/assets/models/g1/amo/amo_jit.pt...[0m
+[Registry][robojudo.policy] BeyondMimicPolicy, total: 2
+[Policy] Dynamic import of policy: BeyondMimicPolicy
+[32m07-20 21:08:19.136 [INFO] [robojudo.policy.beyondmimic_policy] [BeyondMimicPolicy] Using modelmeta as config ...[0m
+Beyondmimic Dance_wose: 0step [00:00, ?step/s]                                              Beyondmimic Dance_wose: 0step [00:00, ?step/s]                                              Beyondmimic Dance_wose: 0step [00:00, ?step/s][32m07-20 21:08:19.144 [INFO] [robojudo.utils.rotation] base set to pos: [-1.26505829e-03  2.29079742e-05  0.00000000e+00], quat: [ 0.          0.         -0.07370886  0.9972798 ][0m
+[32m07-20 21:08:19.147 [INFO] [robojudo.policy.beyondmimic_policy] [BeyondMimicPolicy] Using modelmeta as config ...[0m
+
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [00:00<?, ?step/s][A                                              
+                                                             [ABeyondmimic Dance_wose: 0step [00:00, ?step/s]
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [00:00<?, ?step/s][A                                              
+                                                             [ABeyondmimic Dance_wose: 0step [00:00, ?step/s]
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [00:00<?, ?step/s][A[32m07-20 21:08:19.147 [INFO] [robojudo.utils.rotation] base set to pos: [ 1.01630437 -0.00272518  0.        ], quat: [0.         0.         0.00698378 0.99997561][0m
+[32m07-20 21:08:19.150 [INFO] [robojudo.policy.beyondmimic_policy] [BeyondMimicPolicy] Using modelmeta as config ...[0m
+
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [00:00<?, ?step/s][A[A                                              
+
+                                                            [A[A
+                                                             [ABeyondmimic Dance_wose: 0step [00:00, ?step/s]
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [00:00<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [00:00<?, ?step/s][A                                              
+
+                                                            [A[A
+                                                             [ABeyondmimic Dance_wose: 0step [00:00, ?step/s]
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [00:00<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [00:00<?, ?step/s][A                                              
+
+                                                            [A[A
+                                                             [ABeyondmimic Dance_wose: 0step [00:00, ?step/s]
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [00:00<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [00:00<?, ?step/s][A                                              
+
+                                                            [A[A
+                                                             [ABeyondmimic Dance_wose: 0step [00:00, ?step/s]
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [00:00<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [00:00<?, ?step/s][A                                              
+
+                                                            [A[A
+                                                             [ABeyondmimic Dance_wose: 0step [00:00, ?step/s]
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [00:00<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [00:00<?, ?step/s][A                                              
+
+                                                            [A[A
+                                                             [ABeyondmimic Dance_wose: 0step [00:00, ?step/s]
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [00:00<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [00:00<?, ?step/s][A                                              
+
+                                                            [A[A
+                                                             [ABeyondmimic Dance_wose: 0step [00:00, ?step/s]
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [00:00<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [00:00<?, ?step/s][A                                              
+
+                                                            [A[A
+                                                             [ABeyondmimic Dance_wose: 0step [02:17, ?step/s]
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [02:17<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [02:17<?, ?step/s][A[32m07-20 21:08:19.151 [INFO] [robojudo.utils.rotation] base set to pos: [ 0.83411127 -0.00389521  0.        ], quat: [0.         0.         0.07044943 0.99751535][0m
+[36m07-20 21:08:19.152 [DEBUG] [robojudo.tools.dof] [DoF] override default_pos with [-0.1, 0.0, 0.0, 0.3, -0.2, 0.0, -0.1, 0.0, 0.0, 0.3, -0.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0][0m
+[36m07-20 21:08:19.152 [DEBUG] [robojudo.tools.dof] [DoF] override stiffness with [150, 150, 150, 300, 80, 20, 150, 150, 150, 300, 80, 20, 400, 400, 400, 40, 40, 40, 40, 20, 20, 20, 40, 40, 40, 40, 20, 20, 20][0m
+[36m07-20 21:08:19.152 [DEBUG] [robojudo.tools.dof] [DoF] override damping with [2, 2, 2, 4, 2, 1, 2, 2, 2, 4, 2, 1, 15, 15, 15, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2][0m
+[36m07-20 21:08:19.152 [DEBUG] [robojudo.tools.dof] [DoF] override torque_limits with [88, 139, 88, 139, 50, 50, 88, 139, 88, 139, 50, 50, 88, 50, 50, 40, 40, 18, 18, 10, 10, 10, 40, 40, 18, 18, 10, 10, 10][0m
+[32m07-20 21:08:20.104 [INFO] [robojudo.pipeline.rl_pipeline] Pipeline reset[0m
+[32m07-20 21:08:20.106 [INFO] [robojudo.utils.rotation] base set to pos: [-1.05751363e-11 -1.09149323e-13  0.00000000e+00], quat: [0.00000000e+00 0.00000000e+00 3.92004652e-13 1.00000000e+00][0m
+[32m07-20 21:10:36.491 [INFO] [robojudo.pipeline.rl_loco_mimic_pipeline] ========== COMMANDS ==========
+['[POLICY_MIMIC]'][0m
+
+
+
+Beyondmimic Dance_wose: 0step [00:00, ?step/s][A[A[A                                              Interpolation:   0%|[35m          [0m| 0/75 [00:00<?, ?step/s]Interpolation:   1%|[35m1         [0m| 1/75 [00:00<00:08,  8.59step/s]Interpolation:   4%|[35m4         [0m| 3/75 [00:00<00:10,  6.80step/s]Interpolation:   5%|[35m5         [0m| 4/75 [00:00<00:09,  7.86step/s]Interpolation:   7%|[35m6         [0m| 5/75 [00:00<00:14,  4.82step/s]Interpolation:   8%|[35m8         [0m| 6/75 [00:00<00:11,  5.99step/s]Interpolation:   9%|[35m9         [0m| 7/75 [00:01<00:09,  7.19step/s]Interpolation:  11%|[35m#         [0m| 8/75 [00:01<00:14,  4.63step/s]Interpolation:  12%|[35m#2        [0m| 9/75 [00:01<00:11,  5.76step/s]Interpolation:  13%|[35m#3        [0m| 10/75 [00:01<00:14,  4.44step/s]Interpolation:  15%|[35m#4        [0m| 11/75 [00:01<00:11,  5.52step/s]Interpolation:  16%|[35m#6        [0m| 12/75 [00:02<00:09,  6.54step/s]Interpolation:  17%|[35m#7        [0m| 13/75 [00:02<00:12,  5.02step/s]Interpolation:  19%|[35m#8        [0m| 14/75 [00:02<00:09,  6.14step/s]Interpolation:  20%|[35m##        [0m| 15/75 [00:02<00:13,  4.54step/s]Interpolation:  21%|[35m##1       [0m| 16/75 [00:02<00:09,  6.03step/s]Interpolation:  23%|[35m##2       [0m| 17/75 [00:02<00:06,  8.36step/s]Interpolation:  24%|[35m##4       [0m| 18/75 [00:03<00:11,  5.15step/s]Interpolation:  25%|[35m##5       [0m| 19/75 [00:03<00:08,  6.75step/s]Interpolation:  27%|[35m##6       [0m| 20/75 [00:03<00:11,  4.90step/s]Interpolation:  28%|[35m##8       [0m| 21/75 [00:03<00:08,  6.02step/s]Interpolation:  29%|[35m##9       [0m| 22/75 [00:03<00:07,  7.13step/s]Interpolation:  31%|[35m###       [0m| 23/75 [00:04<00:10,  4.79step/s]Interpolation:  32%|[35m###2      [0m| 24/75 [00:04<00:08,  5.85step/s]Interpolation:  33%|[35m###3      [0m| 25/75 [00:04<00:11,  4.52step/s]Interpolation:  35%|[35m###4      [0m| 26/75 [00:04<00:08,  6.03step/s]Interpolation:  36%|[35m###6      [0m| 27/75 [00:04<00:07,  6.72step/s]Interpolation:  37%|[35m###7      [0m| 28/75 [00:05<00:09,  4.75step/s]Interpolation:  39%|[35m###8      [0m| 29/75 [00:05<00:07,  6.23step/s]Interpolation:  40%|[35m####      [0m| 30/75 [00:05<00:09,  4.94step/s]Interpolation:  43%|[35m####2     [0m| 32/75 [00:05<00:04,  8.97step/s]Interpolation:  44%|[35m####4     [0m| 33/75 [00:05<00:06,  6.15step/s]Interpolation:  45%|[35m####5     [0m| 34/75 [00:05<00:05,  7.08step/s]Interpolation:  47%|[35m####6     [0m| 35/75 [00:06<00:08,  4.91step/s]Interpolation:  48%|[35m####8     [0m| 36/75 [00:06<00:06,  5.81step/s]Interpolation:  49%|[35m####9     [0m| 37/75 [00:06<00:05,  6.80step/s]Interpolation:  51%|[35m#####     [0m| 38/75 [00:06<00:08,  4.48step/s]Interpolation:  52%|[35m#####2    [0m| 39/75 [00:06<00:06,  5.54step/s]Interpolation:  53%|[35m#####3    [0m| 40/75 [00:07<00:07,  4.76step/s]Interpolation:  55%|[35m#####4    [0m| 41/75 [00:07<00:05,  6.47step/s]Interpolation:  56%|[35m#####6    [0m| 42/75 [00:07<00:04,  7.21step/s]Interpolation:  57%|[35m#####7    [0m| 43/75 [00:07<00:06,  5.04step/s]Interpolation:  59%|[35m#####8    [0m| 44/75 [00:07<00:05,  5.99step/s]Interpolation:  60%|[35m######    [0m| 45/75 [00:07<00:06,  4.46step/s]Interpolation:  61%|[35m######1   [0m| 46/75 [00:08<00:05,  5.51step/s]Interpolation:  63%|[35m######2   [0m| 47/75 [00:08<00:04,  6.60step/s]Interpolation:  64%|[35m######4   [0m| 48/75 [00:08<00:05,  4.74step/s]Interpolation:  65%|[35m######5   [0m| 49/75 [00:08<00:04,  5.78step/s]Interpolation:  67%|[35m######6   [0m| 50/75 [00:08<00:05,  4.47step/s]Interpolation:  68%|[35m######8   [0m| 51/75 [00:09<00:04,  5.52step/s]Interpolation:  69%|[35m######9   [0m| 52/75 [00:09<00:03,  6.54step/s]Interpolation:  71%|[35m#######   [0m| 53/75 [00:09<00:04,  4.86step/s]Interpolation:  72%|[35m#######2  [0m| 54/75 [00:09<00:03,  5.83step/s]Interpolation:  73%|[35m#######3  [0m| 55/75 [00:09<00:04,  4.62step/s]Interpolation:  75%|[35m#######4  [0m| 56/75 [00:09<00:03,  5.72step/s]Interpolation:  76%|[35m#######6  [0m| 57/75 [00:09<00:02,  6.86step/s]Interpolation:  77%|[35m#######7  [0m| 58/75 [00:10<00:03,  4.66step/s]Interpolation:  79%|[35m#######8  [0m| 59/75 [00:10<00:02,  6.12step/s]Interpolation:  80%|[35m########  [0m| 60/75 [00:10<00:03,  4.56step/s]Interpolation:  81%|[35m########1 [0m| 61/75 [00:10<00:02,  5.48step/s]Interpolation:  83%|[35m########2 [0m| 62/75 [00:10<00:01,  6.54step/s]Interpolation:  84%|[35m########4 [0m| 63/75 [00:11<00:02,  4.68step/s]Interpolation:  85%|[35m########5 [0m| 64/75 [00:11<00:01,  5.69step/s]Interpolation:  87%|[35m########6 [0m| 65/75 [00:11<00:02,  4.32step/s]Interpolation:  88%|[35m########8 [0m| 66/75 [00:11<00:01,  5.28step/s]Interpolation:  89%|[35m########9 [0m| 67/75 [00:11<00:01,  6.26step/s]Interpolation:  91%|[35m######### [0m| 68/75 [00:12<00:01,  4.83step/s]Interpolation:  92%|[35m#########2[0m| 69/75 [00:12<00:01,  5.80step/s]Interpolation:  93%|[35m#########3[0m| 70/75 [00:12<00:01,  4.32step/s]Interpolation:  95%|[35m#########4[0m| 71/75 [00:12<00:00,  5.35step/s]Interpolation:  96%|[35m#########6[0m| 72/75 [00:12<00:00,  6.43step/s]Interpolation:  97%|[35m#########7[0m| 73/75 [00:13<00:00,  4.47step/s]Interpolation:  99%|[35m#########8[0m| 74/75 [00:13<00:00,  5.43step/s]Interpolation: 100%|[35m##########[0m| 75/75 [00:13<00:00,  4.22step/s]                                                                
+
+
+                                              [A[A[A
+
+                                                            [A[A
+                                                             [A
+
+
+Beyondmimic Dance_wose: 0step [00:18, ?step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [02:35<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [02:35<?, ?step/s][A
+
+
+                                              [A[A[A
+
+                                                            [A[A
+                                                             [A
+
+
+Beyondmimic Dance_wose: 0step [00:18, ?step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [02:35<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [02:35<?, ?step/s][A
+
+
+                                              [A[A[A
+
+                                                            [A[A
+                                                             [A
+
+
+Beyondmimic Dance_wose: 0step [00:18, ?step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [02:35<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [02:35<?, ?step/s][A
+
+
+                                              [A[A[A
+
+                                                            [A[A
+                                                             [A
+
+
+Beyondmimic Dance_wose: 0step [00:18, ?step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [02:35<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [02:35<?, ?step/s][A
+
+
+                                              [A[A[A
+
+                                                            [A[A
+                                                             [A
+
+
+Beyondmimic Dance_wose: 0step [00:18, ?step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [02:35<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [02:35<?, ?step/s][A
+
+
+Beyondmimic Dance_wose: 1.0step [00:18, 18.23s/step][A[A[A
+
+
+Beyondmimic Dance_wose: 3.0step [00:18,  4.81s/step][A[A[A
+
+
+Beyondmimic Dance_wose: 5.0step [00:18,  2.40s/step][A[A[A
+
+
+Beyondmimic Dance_wose: 8.0step [00:18,  1.19s/step][A[A[A
+
+
+Beyondmimic Dance_wose: 10.0step [00:19,  1.21step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 13.0step [00:19,  1.93step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 15.0step [00:19,  2.47step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 18.0step [00:19,  3.54step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 20.0step [00:20,  4.18step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 23.0step [00:20,  5.43step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 25.0step [00:20,  5.92step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 28.0step [00:20,  7.25step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 30.0step [00:21,  7.52step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 33.0step [00:21,  8.64step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 35.0step [00:21,  8.76step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 38.0step [00:21,  9.91step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 40.0step [00:22,  9.59step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 43.0step [00:22, 10.54step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 45.0step [00:22, 10.10step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 48.0step [00:22, 10.86step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 50.0step [00:23,  9.74step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 53.0step [00:23, 10.39step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 55.0step [00:23,  9.68step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 58.0step [00:23, 10.52step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 60.0step [00:24,  9.82step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 63.0step [00:24, 10.44step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 65.0step [00:24,  9.87step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 68.0step [00:24, 10.51step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 70.0step [00:25,  9.74step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 73.0step [00:25, 10.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 75.0step [00:25,  9.67step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 78.0step [00:25,  9.99step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 80.0step [00:26,  9.10step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 83.0step [00:26,  9.97step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 85.0step [00:26,  9.42step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 88.0step [00:26, 10.13step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 90.0step [00:27,  9.30step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 93.0step [00:27,  9.97step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 95.0step [00:27,  9.37step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 98.0step [00:27, 10.26step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 100.0step [00:28,  9.53step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 103.0step [00:28, 10.08step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 105.0step [00:28,  9.44step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 108.0step [00:28, 10.10step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 110.0step [00:29,  9.48step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 112.0step [00:29, 12.60step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 113.0step [00:29,  9.38step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 115.0step [00:29,  8.74step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 118.0step [00:29,  8.81step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 120.0step [00:30,  8.08step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 123.0step [00:30,  8.93step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 125.0step [00:30,  8.67step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 128.0step [00:31,  9.64step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 130.0step [00:31,  9.09step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 133.0step [00:31,  9.85step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 135.0step [00:31,  9.34step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 138.0step [00:32, 10.06step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 140.0step [00:32,  9.54step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 143.0step [00:32, 10.24step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 145.0step [00:32,  9.70step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 148.0step [00:33, 10.35step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 150.0step [00:33,  9.72step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 153.0step [00:33, 10.35step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 155.0step [00:33,  9.47step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 158.0step [00:34,  9.77step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 160.0step [00:34,  9.02step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 162.0step [00:34, 12.01step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 163.0step [00:34,  9.15step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 165.0step [00:34,  8.81step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 168.0step [00:35,  9.90step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 170.0step [00:35,  9.51step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 173.0step [00:35, 10.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 175.0step [00:35,  9.84step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 178.0step [00:36, 10.47step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 180.0step [00:36,  9.63step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 183.0step [00:36, 10.28step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 185.0step [00:36,  9.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 188.0step [00:37, 10.30step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 190.0step [00:37,  9.60step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 193.0step [00:37, 10.30step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 195.0step [00:37,  9.62step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 198.0step [00:38, 10.40step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 200.0step [00:38,  9.54step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 203.0step [00:38, 10.29step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 205.0step [00:38,  9.62step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 208.0step [00:39, 10.42step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 210.0step [00:39,  9.74step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 213.0step [00:39, 10.48step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 215.0step [00:39,  9.72step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 218.0step [00:40, 10.44step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 220.0step [00:40,  9.69step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 222.0step [00:40, 12.82step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 223.0step [00:40,  9.56step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 225.0step [00:40,  9.00step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 228.0step [00:41, 10.07step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 230.0step [00:41,  9.34step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 233.0step [00:41, 10.23step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 235.0step [00:41,  9.59step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 238.0step [00:42,  9.97step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 240.0step [00:42,  9.54step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 243.0step [00:42, 10.04step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 245.0step [00:42,  9.52step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 248.0step [00:43, 10.36step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 250.0step [00:43,  9.55step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 253.0step [00:43, 10.34step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 255.0step [00:43,  9.59step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 258.0step [00:44, 10.36step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 260.0step [00:44,  9.69step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 263.0step [00:44, 10.30step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 265.0step [00:44,  9.58step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 268.0step [00:45, 10.25step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 270.0step [00:45,  9.60step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 273.0step [00:45, 10.48step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 275.0step [00:45,  9.96step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 278.0step [00:46, 10.78step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 280.0step [00:46,  9.83step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 283.0step [00:46, 10.41step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 285.0step [00:46,  9.76step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 288.0step [00:47, 10.36step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 290.0step [00:47,  9.66step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 293.0step [00:47, 10.49step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 295.0step [00:47,  9.81step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 298.0step [00:48, 10.53step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 300.0step [00:48,  9.74step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 303.0step [00:48, 10.08step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 305.0step [00:49,  7.47step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 307.0step [00:49,  9.98step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 308.0step [00:49,  7.83step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 310.0step [00:49,  7.54step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 313.0step [00:49,  8.55step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 315.0step [00:50,  8.19step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 318.0step [00:50,  8.93step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 320.0step [00:50,  8.62step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 323.0step [00:51,  9.45step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 325.0step [00:51,  8.96step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 328.0step [00:51,  9.69step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 330.0step [00:51,  9.09step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 333.0step [00:52,  9.94step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 335.0step [00:52,  9.58step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 338.0step [00:52, 10.57step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 340.0step [00:52, 10.15step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 343.0step [00:52, 10.98step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 345.0step [00:53, 10.39step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 348.0step [00:53, 11.00step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 350.0step [00:53, 10.15step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 353.0step [00:53, 10.82step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 355.0step [00:54, 10.07step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 358.0step [00:54, 10.72step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 360.0step [00:54,  9.85step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 363.0step [00:54, 10.63step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 365.0step [00:55,  9.75step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 368.0step [00:55, 10.30step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 370.0step [00:55,  9.73step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 373.0step [00:55, 10.50step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 375.0step [00:56,  9.80step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 378.0step [00:56, 10.45step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 380.0step [00:56,  9.80step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 383.0step [00:56, 10.52step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 385.0step [00:57,  9.89step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 388.0step [00:57, 10.40step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 390.0step [00:57,  9.69step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 393.0step [00:57, 10.49step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 395.0step [00:58,  9.81step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 398.0step [00:58, 10.70step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 400.0step [00:58,  9.97step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 403.0step [00:58, 10.64step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 405.0step [00:59, 10.05step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 408.0step [00:59, 10.73step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 410.0step [00:59, 10.06step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 413.0step [00:59,  9.91step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 415.0step [01:00,  9.01step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 417.0step [01:00, 11.95step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 418.0step [01:00,  8.48step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 420.0step [01:00,  7.79step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 421.0step [01:00,  9.35step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 423.0step [01:01,  8.72step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 425.0step [01:01,  8.32step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 428.0step [01:01,  9.54step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 430.0step [01:01,  9.02step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 433.0step [01:02,  9.71step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 435.0step [01:02,  9.03step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 438.0step [01:02,  9.90step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 440.0step [01:02,  9.05step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 443.0step [01:03,  8.61step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 444.0step [01:03,  9.67step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 445.0step [01:03,  6.98step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 448.0step [01:03,  8.13step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 450.0step [01:04,  7.88step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 452.0step [01:04, 10.93step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 453.0step [01:04,  8.30step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 455.0step [01:04,  8.33step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 458.0step [01:04,  9.51step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 460.0step [01:05,  8.92step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 463.0step [01:05,  9.73step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 465.0step [01:05,  8.95step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 468.0step [01:06,  9.20step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 470.0step [01:06,  8.64step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 473.0step [01:06,  8.97step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 475.0step [01:06,  8.39step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 478.0step [01:07,  9.14step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 480.0step [01:07,  8.71step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 483.0step [01:07,  9.49step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 485.0step [01:07,  9.08step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 488.0step [01:08, 10.16step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 490.0step [01:08,  9.71step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 493.0step [01:08, 10.66step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 495.0step [01:08, 10.02step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 498.0step [01:09, 10.98step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 500.0step [01:09, 10.14step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 503.0step [01:09, 10.26step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 505.0step [01:09,  9.76step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 508.0step [01:10, 10.23step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 510.0step [01:10,  9.69step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 513.0step [01:10, 10.35step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 515.0step [01:10,  9.71step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 518.0step [01:11, 10.53step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 520.0step [01:11,  9.90step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 523.0step [01:11, 10.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 525.0step [01:11,  9.86step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 528.0step [01:12, 10.55step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 530.0step [01:12,  9.87step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 533.0step [01:12, 10.34step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 535.0step [01:12,  9.72step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 538.0step [01:13, 10.15step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 540.0step [01:13,  9.36step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 543.0step [01:13, 10.31step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 545.0step [01:13,  9.87step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 548.0step [01:14, 10.61step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 550.0step [01:14, 10.00step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 552.0step [01:14, 13.31step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 553.0step [01:14,  9.86step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 555.0step [01:14,  9.27step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 558.0step [01:15, 10.28step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 560.0step [01:15,  9.66step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 563.0step [01:15, 10.26step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 565.0step [01:15,  9.35step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 568.0step [01:16, 10.08step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 570.0step [01:16,  9.41step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 573.0step [01:16, 10.31step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 575.0step [01:16,  9.65step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 578.0step [01:17, 10.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 580.0step [01:17, 10.02step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 583.0step [01:17, 10.78step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 585.0step [01:17, 10.12step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 588.0step [01:18, 10.66step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 590.0step [01:18,  9.74step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 593.0step [01:18, 10.61step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 595.0step [01:18, 10.22step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 598.0step [01:19, 10.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 600.0step [01:19,  9.77step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 603.0step [01:19, 10.32step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 605.0step [01:19,  9.87step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 608.0step [01:20, 10.37step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 610.0step [01:20,  9.66step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 613.0step [01:20, 10.23step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 615.0step [01:20,  9.56step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 618.0step [01:21, 10.08step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 620.0step [01:21,  9.49step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 623.0step [01:21, 10.35step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 625.0step [01:21,  9.71step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 628.0step [01:22, 10.39step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 630.0step [01:22,  9.70step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 633.0step [01:22, 10.36step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 635.0step [01:22,  9.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 638.0step [01:23, 10.10step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 640.0step [01:23,  9.27step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 643.0step [01:23, 10.03step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 645.0step [01:23,  9.53step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 648.0step [01:24, 10.21step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 650.0step [01:24,  9.58step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 653.0step [01:24, 10.23step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 655.0step [01:24,  9.69step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 658.0step [01:25, 10.55step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 660.0step [01:25,  9.83step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 663.0step [01:25, 10.36step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 665.0step [01:25,  9.43step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 668.0step [01:26, 10.38step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 670.0step [01:26,  9.70step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 673.0step [01:26, 10.36step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 675.0step [01:26,  9.62step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 678.0step [01:27, 10.26step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 680.0step [01:27,  9.72step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 683.0step [01:27, 10.11step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 685.0step [01:27,  9.56step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 688.0step [01:28, 10.48step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 690.0step [01:28,  9.49step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 693.0step [01:28, 10.37step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 695.0step [01:28,  9.62step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 698.0step [01:29, 10.26step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 700.0step [01:29,  9.75step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 703.0step [01:29, 10.69step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 705.0step [01:29,  9.96step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 708.0step [01:30, 10.62step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 710.0step [01:30,  9.95step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 713.0step [01:30, 10.57step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 715.0step [01:30,  9.73step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 718.0step [01:31, 10.48step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 720.0step [01:31,  9.69step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 723.0step [01:31, 10.37step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 725.0step [01:31,  9.76step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 728.0step [01:31, 10.57step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 730.0step [01:32,  9.87step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 733.0step [01:32, 10.58step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 735.0step [01:32,  9.72step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 738.0step [01:33, 10.21step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 740.0step [01:33,  9.26step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 743.0step [01:33,  9.98step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 745.0step [01:33,  9.25step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 748.0step [01:34,  9.82step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 750.0step [01:34,  8.84step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 752.0step [01:34, 11.78step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 753.0step [01:34,  8.82step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 755.0step [01:34,  8.62step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 758.0step [01:35,  9.88step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 760.0step [01:35,  9.66step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 763.0step [01:35, 10.68step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 765.0step [01:35, 10.05step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 768.0step [01:36, 10.69step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 770.0step [01:36,  9.80step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 773.0step [01:36, 10.38step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 775.0step [01:36,  9.60step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 778.0step [01:37, 10.21step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 780.0step [01:37,  9.58step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 783.0step [01:37, 10.30step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 785.0step [01:37,  9.52step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 788.0step [01:38, 10.02step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 790.0step [01:38,  9.31step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 793.0step [01:38,  9.77step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 795.0step [01:38,  8.60step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 798.0step [01:39,  9.57step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 800.0step [01:39,  9.10step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 803.0step [01:39,  9.97step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 805.0step [01:39,  9.44step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 808.0step [01:40, 10.04step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 810.0step [01:40,  9.52step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 813.0step [01:40, 10.28step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 815.0step [01:40,  9.24step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 818.0step [01:41,  9.65step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 820.0step [01:41,  8.61step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 822.0step [01:41, 11.44step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 823.0step [01:41,  8.59step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 825.0step [01:42,  8.55step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 828.0step [01:42,  9.77step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 830.0step [01:42,  9.14step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 833.0step [01:42, 10.05step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 835.0step [01:43,  9.39step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 838.0step [01:43, 10.28step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 840.0step [01:43,  9.81step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 843.0step [01:43, 10.41step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 845.0step [01:44,  9.84step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 848.0step [01:44, 10.56step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 850.0step [01:44,  9.78step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 853.0step [01:44, 10.57step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 855.0step [01:45, 10.10step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 858.0step [01:45, 11.07step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 860.0step [01:45, 10.40step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 863.0step [01:45, 11.16step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 865.0step [01:45, 10.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 868.0step [01:46, 11.18step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 870.0step [01:46, 10.34step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 873.0step [01:46, 10.74step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 875.0step [01:46, 10.01step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 878.0step [01:47, 10.52step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 880.0step [01:47,  9.53step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 882.0step [01:47, 12.65step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 883.0step [01:47,  9.15step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 885.0step [01:47,  8.52step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 888.0step [01:48,  9.48step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 890.0step [01:48,  8.69step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 893.0step [01:48,  9.30step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 895.0step [01:49,  8.40step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 898.0step [01:49,  9.10step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 900.0step [01:49,  8.43step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 903.0step [01:49,  8.89step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 905.0step [01:50,  8.38step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 908.0step [01:50,  9.42step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 910.0step [01:50,  8.90step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 913.0step [01:51,  9.70step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 915.0step [01:51,  8.87step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 918.0step [01:51,  9.65step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 920.0step [01:51,  8.88step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 923.0step [01:52,  9.62step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 925.0step [01:52,  9.02step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 928.0step [01:52,  9.80step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 930.0step [01:52,  9.50step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 933.0step [01:53, 10.43step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 935.0step [01:53,  9.84step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 938.0step [01:53, 10.59step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 940.0step [01:53,  9.85step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 943.0step [01:54, 10.54step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 945.0step [01:54, 10.01step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 948.0step [01:54, 10.88step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 950.0step [01:54, 10.02step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 953.0step [01:55, 10.59step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 955.0step [01:55,  9.61step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 958.0step [01:55, 10.21step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 960.0step [01:55,  9.61step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 963.0step [01:56, 10.15step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 965.0step [01:56,  9.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 968.0step [01:56, 10.05step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 970.0step [01:56,  9.37step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 973.0step [01:57, 10.12step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 975.0step [01:57,  9.37step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 978.0step [01:57,  9.32step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 980.0step [01:57,  8.83step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 983.0step [01:58,  9.62step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 985.0step [01:58,  8.96step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 988.0step [01:58,  9.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 990.0step [01:59,  9.02step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 993.0step [01:59,  9.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 995.0step [01:59,  8.65step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 998.0step [01:59,  9.17step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1000.0step [02:00,  8.44step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1003.0step [02:00,  8.99step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1005.0step [02:00,  8.23step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1007.0step [02:00, 10.98step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1008.0step [02:01,  8.29step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1010.0step [02:01,  8.10step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1013.0step [02:01,  9.31step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1015.0step [02:01,  9.06step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1018.0step [02:02,  9.64step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1020.0step [02:02,  9.16step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1023.0step [02:02,  9.50step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1025.0step [02:02,  8.76step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1028.0step [02:03,  9.74step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1030.0step [02:03,  9.18step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1033.0step [02:03,  9.79step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1035.0step [02:03,  9.22step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1038.0step [02:04, 10.01step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1040.0step [02:04,  9.34step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1043.0step [02:04, 10.08step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1045.0step [02:04,  9.50step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1048.0step [02:05, 10.01step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1050.0step [02:05,  9.28step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1052.0step [02:05, 12.32step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1053.0step [02:05,  9.04step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1055.0step [02:06,  8.17step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1058.0step [02:06,  9.04step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1060.0step [02:06,  8.29step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1063.0step [02:06,  9.01step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1065.0step [02:07,  8.63step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1068.0step [02:07,  9.36step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1070.0step [02:07,  8.74step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1073.0step [02:07,  9.67step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1075.0step [02:08,  9.21step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1078.0step [02:08,  9.91step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1080.0step [02:08,  9.41step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1083.0step [02:09,  9.82step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1085.0step [02:09,  9.23step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1087.0step [02:09, 12.31step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1088.0step [02:09,  9.40step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1090.0step [02:09,  9.19step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1093.0step [02:09, 10.22step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1095.0step [02:10,  9.51step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1098.0step [02:10, 10.28step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1100.0step [02:10,  9.51step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1103.0step [02:11, 10.06step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1105.0step [02:11,  9.46step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1108.0step [02:11, 10.10step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1110.0step [02:11,  9.59step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1113.0step [02:11, 10.52step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1115.0step [02:12,  9.94step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1118.0step [02:12, 10.58step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1120.0step [02:12, 10.00step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1123.0step [02:12, 10.60step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1125.0step [02:13,  9.84step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1128.0step [02:13, 10.60step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1130.0step [02:13,  9.10step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1133.0step [02:14, 10.10step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1135.0step [02:14,  9.53step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1138.0step [02:14, 10.39step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1140.0step [02:14,  9.80step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1143.0step [02:14, 10.61step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1145.0step [02:15,  9.95step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1148.0step [02:15, 10.76step/s][A[A[A
+
+
+                                                       [A[A[A
+
+                                                            [A[A
+                                                             [A
+
+
+Beyondmimic Dance_wose: 1149.0step [02:15, 10.76step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [04:33<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [04:33<?, ?step/s][A[32m07-20 21:10:54.836 [INFO] [robojudo.utils.rotation] base set to pos: [-0.85359055 -0.5257144   0.        ], quat: [ 0.          0.         -0.78780416  0.61592581][0m
+[36m07-20 21:10:54.837 [DEBUG] [robojudo.tools.dof] [DoF] override default_pos with [-0.312, 0.0, 0.0, 0.669, -0.363, 0.0, -0.312, 0.0, 0.0, 0.669, -0.363, 0.0, 0.0, 0.0, 0.0, 0.2, 0.2, 0.0, 0.6, 0.0, 0.0, 0.0, 0.2, -0.2, 0.0, 0.6, 0.0, 0.0, 0.0][0m
+[36m07-20 21:10:54.838 [DEBUG] [robojudo.tools.dof] [DoF] override stiffness with [40.179, 99.098, 40.179, 99.098, 28.501, 28.501, 40.179, 99.098, 40.179, 99.098, 28.501, 28.501, 40.179, 28.501, 28.501, 14.251, 14.251, 14.251, 14.251, 14.251, 16.778, 16.778, 14.251, 14.251, 14.251, 14.251, 14.251, 16.778, 16.778][0m
+[36m07-20 21:10:54.838 [DEBUG] [robojudo.tools.dof] [DoF] override damping with [2.558, 6.309, 2.558, 6.309, 1.814, 1.814, 2.558, 6.309, 2.558, 6.309, 1.814, 1.814, 2.558, 1.814, 1.814, 0.907, 0.907, 0.907, 0.907, 0.907, 1.068, 1.068, 0.907, 0.907, 0.907, 0.907, 0.907, 1.068, 1.068][0m
+[33m07-20 21:10:54.838 [WARNING] [robojudo.pipeline.rl_multi_policy_pipeline] Switched to policy: 1: BeyondMimicPolicy@Dance_wose[0m
+[32m07-20 21:12:52.290 [INFO] [robojudo.pipeline.rl_loco_mimic_pipeline] ========== COMMANDS ==========
+['[POLICY_LOCO]'][0m
+Interpolation:   0%|[35m          [0m| 0/75 [00:00<?, ?step/s]
+
+
+Beyondmimic Dance_wose: 1150.0step [02:15, 10.03step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1151.0step [02:15, 10.56step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1152.0step [02:15, 11.37step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1153.0step [02:16,  8.22step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1154.0step [02:16,  8.79step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1155.0step [02:16,  6.55step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1156.0step [02:16,  7.64step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1157.0step [02:16,  9.07step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1158.0step [02:16,  6.45step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1159.0step [02:16,  7.84step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1160.0step [02:17,  5.76step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1161.0step [02:17,  6.88step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1162.0step [02:17,  8.83step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1163.0step [02:17,  6.13step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1164.0step [02:17,  7.67step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1165.0step [02:17,  5.65step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1166.0step [02:17,  7.05step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1167.0step [02:17,  9.00step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1168.0step [02:18,  6.40step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1169.0step [02:18,  7.80step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1170.0step [02:18,  5.96step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1171.0step [02:18,  7.41step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1172.0step [02:18,  9.50step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1173.0step [02:18,  6.62step/s][A[A[A
+
+
+Beyondmimic Dance_wose: 1174.0step [02:18,  8.37step/s][A[A[A                                                       
+
+
+                                                       [A[A[A
+
+                                                            [A[A
+                                                             [AInterpolation:   0%|[35m          [0m| 0/75 [00:03<?, ?step/s]
+
+
+Beyondmimic Dance_wose: 1174.0step [02:19,  8.37step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [04:36<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [04:36<?, ?step/s][A                                                       
+
+
+                                                       [A[A[A
+
+                                                            [A[A
+                                                             [AInterpolation:   0%|[35m          [0m| 0/75 [00:03<?, ?step/s]
+
+
+Beyondmimic Dance_wose: 1174.0step [02:19,  8.37step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [04:36<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [04:36<?, ?step/s][A                                                       
+
+
+                                                       [A[A[A
+
+                                                            [A[A
+                                                             [AInterpolation:   0%|[35m          [0m| 0/75 [00:03<?, ?step/s]
+
+
+Beyondmimic Dance_wose: 1174.0step [02:19,  8.37step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [04:36<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [04:36<?, ?step/s][A                                                       
+
+
+                                                       [A[A[A
+
+                                                            [A[A
+                                                             [AInterpolation:   0%|[35m          [0m| 0/75 [00:03<?, ?step/s]
+
+
+Beyondmimic Dance_wose: 1174.0step [02:19,  8.37step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [04:36<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [04:36<?, ?step/s][A                                                       
+
+
+                                                       [A[A[A
+
+                                                            [A[A
+                                                             [AInterpolation:   0%|[35m          [0m| 0/75 [00:03<?, ?step/s]
+
+
+Beyondmimic Dance_wose: 1174.0step [02:19,  8.37step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [04:36<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [04:36<?, ?step/s][A                                                       
+
+
+                                                       [A[A[A
+
+                                                            [A[A
+                                                             [AInterpolation:   0%|[35m          [0m| 0/75 [00:03<?, ?step/s]
+
+
+Beyondmimic Dance_wose: 1174.0step [02:19,  8.37step/s][A[A[A
+
+Beyondmimic Waltz:   0%|[35m          [0m| 0/850 [04:36<?, ?step/s][A[A
+Beyondmimic Violin:   0%|[35m          [0m| 0/500 [04:36<?, ?step/s][AInterpolation:   0%|[35m          [0m| 0/75 [00:03<?, ?step/s]Interpolation:   1%|[35m1         [0m| 1/75 [00:03<00:24,  2.96step/s]Interpolation:   3%|[35m2         [0m| 2/75 [00:03<00:14,  5.06step/s]Interpolation:   4%|[35m4         [0m| 3/75 [00:03<00:10,  6.83step/s]Interpolation:   5%|[35m5         [0m| 4/75 [00:04<00:15,  4.46step/s]Interpolation:   7%|[35m6         [0m| 5/75 [00:04<00:12,  5.82step/s]Interpolation:   8%|[35m8         [0m| 6/75 [00:04<00:15,  4.58step/s]Interpolation:   9%|[35m9         [0m| 7/75 [00:04<00:11,  5.76step/s]Interpolation:  11%|[35m#         [0m| 8/75 [00:04<00:09,  6.93step/s]Interpolation:  12%|[35m#2        [0m| 9/75 [00:05<00:14,  4.54step/s]Interpolation:  13%|[35m#3        [0m| 10/75 [00:05<00:11,  5.55step/s]Interpolation:  15%|[35m#4        [0m| 11/75 [00:05<00:14,  4.42step/s]Interpolation:  16%|[35m#6        [0m| 12/75 [00:05<00:11,  5.51step/s]Interpolation:  17%|[35m#7        [0m| 13/75 [00:05<00:09,  6.64step/s]Interpolation:  19%|[35m#8        [0m| 14/75 [00:06<00:12,  4.81step/s]Interpolation:  20%|[35m##        [0m| 15/75 [00:06<00:10,  5.99step/s]Interpolation:  21%|[35m##1       [0m| 16/75 [00:06<00:13,  4.46step/s]Interpolation:  23%|[35m##2       [0m| 17/75 [00:06<00:10,  5.59step/s]Interpolation:  24%|[35m##4       [0m| 18/75 [00:06<00:08,  6.71step/s]Interpolation:  25%|[35m##5       [0m| 19/75 [00:06<00:11,  4.90step/s]Interpolation:  27%|[35m##6       [0m| 20/75 [00:07<00:09,  5.77step/s]Interpolation:  28%|[35m##8       [0m| 21/75 [00:07<00:12,  4.49step/s]Interpolation:  29%|[35m##9       [0m| 22/75 [00:07<00:08,  5.99step/s]Interpolation:  32%|[35m###2      [0m| 24/75 [00:07<00:08,  5.98step/s]Interpolation:  33%|[35m###3      [0m| 25/75 [00:07<00:07,  6.96step/s]Interpolation:  35%|[35m###4      [0m| 26/75 [00:08<00:09,  5.21step/s]Interpolation:  36%|[35m###6      [0m| 27/75 [00:08<00:07,  6.23step/s]Interpolation:  37%|[35m###7      [0m| 28/75 [00:08<00:06,  6.85step/s]Interpolation:  39%|[35m###8      [0m| 29/75 [00:08<00:09,  4.77step/s]Interpolation:  40%|[35m####      [0m| 30/75 [00:08<00:07,  5.83step/s]Interpolation:  41%|[35m####1     [0m| 31/75 [00:09<00:10,  4.35step/s]Interpolation:  43%|[35m####2     [0m| 32/75 [00:09<00:07,  5.40step/s]Interpolation:  44%|[35m####4     [0m| 33/75 [00:09<00:06,  6.41step/s]Interpolation:  45%|[35m####5     [0m| 34/75 [00:09<00:09,  4.46step/s]Interpolation:  47%|[35m####6     [0m| 35/75 [00:09<00:07,  5.54step/s]Interpolation:  48%|[35m####8     [0m| 36/75 [00:10<00:09,  4.32step/s]Interpolation:  49%|[35m####9     [0m| 37/75 [00:10<00:06,  5.48step/s]Interpolation:  51%|[35m#####     [0m| 38/75 [00:10<00:05,  6.23step/s]Interpolation:  52%|[35m#####2    [0m| 39/75 [00:10<00:08,  4.45step/s]Interpolation:  53%|[35m#####3    [0m| 40/75 [00:10<00:06,  5.57step/s]Interpolation:  55%|[35m#####4    [0m| 41/75 [00:11<00:07,  4.47step/s]Interpolation:  56%|[35m#####6    [0m| 42/75 [00:11<00:06,  5.47step/s]Interpolation:  57%|[35m#####7    [0m| 43/75 [00:11<00:05,  6.39step/s]Interpolation:  59%|[35m#####8    [0m| 44/75 [00:11<00:06,  4.48step/s]Interpolation:  60%|[35m######    [0m| 45/75 [00:11<00:05,  5.49step/s]Interpolation:  61%|[35m######1   [0m| 46/75 [00:12<00:06,  4.28step/s]Interpolation:  63%|[35m######2   [0m| 47/75 [00:12<00:05,  5.18step/s]Interpolation:  64%|[35m######4   [0m| 48/75 [00:12<00:04,  6.23step/s]Interpolation:  65%|[35m######5   [0m| 49/75 [00:12<00:05,  4.49step/s]Interpolation:  67%|[35m######6   [0m| 50/75 [00:12<00:04,  5.34step/s]Interpolation:  68%|[35m######8   [0m| 51/75 [00:13<00:05,  4.35step/s]Interpolation:  69%|[35m######9   [0m| 52/75 [00:13<00:03,  6.07step/s]Interpolation:  71%|[35m#######   [0m| 53/75 [00:13<00:03,  6.91step/s]Interpolation:  72%|[35m#######2  [0m| 54/75 [00:13<00:04,  4.94step/s]Interpolation:  73%|[35m#######3  [0m| 55/75 [00:13<00:03,  5.96step/s]Interpolation:  75%|[35m#######4  [0m| 56/75 [00:13<00:04,  4.61step/s]Interpolation:  76%|[35m#######6  [0m| 57/75 [00:14<00:03,  5.69step/s]Interpolation:  77%|[35m#######7  [0m| 58/75 [00:14<00:02,  6.60step/s]Interpolation:  79%|[35m#######8  [0m| 59/75 [00:14<00:03,  4.66step/s]Interpolation:  80%|[35m########  [0m| 60/75 [00:14<00:02,  5.90step/s]Interpolation:  81%|[35m########1 [0m| 61/75 [00:14<00:03,  4.47step/s]Interpolation:  83%|[35m########2 [0m| 62/75 [00:15<00:02,  5.40step/s]Interpolation:  84%|[35m########4 [0m| 63/75 [00:15<00:01,  6.44step/s]Interpolation:  85%|[35m########5 [0m| 64/75 [00:15<00:02,  4.79step/s]Interpolation:  87%|[35m########6 [0m| 65/75 [00:15<00:01,  5.86step/s]Interpolation:  88%|[35m########8 [0m| 66/75 [00:15<00:02,  4.47step/s]Interpolation:  89%|[35m########9 [0m| 67/75 [00:15<00:01,  5.59step/s]Interpolation:  91%|[35m######### [0m| 68/75 [00:16<00:01,  6.73step/s]Interpolation:  92%|[35m#########2[0m| 69/75 [00:16<00:01,  4.65step/s]Interpolation:  93%|[35m#########3[0m| 70/75 [00:16<00:00,  6.30step/s]Interpolation:  95%|[35m#########4[0m| 71/75 [00:16<00:00,  4.80step/s]Interpolation:  96%|[35m#########6[0m| 72/75 [00:16<00:00,  6.33step/s]Interpolation:  97%|[35m#########7[0m| 73/75 [00:16<00:00,  8.76step/s]Interpolation:  99%|[35m#########8[0m| 74/75 [00:17<00:00,  5.79step/s]Interpolation: 100%|[35m##########[0m| 75/75 [00:17<00:00,  6.84step/s]                                                                [32m07-20 21:12:55.641 [INFO] [robojudo.utils.rotation] base set to pos: [-1.14143825 -1.08086097  0.        ], quat: [ 0.          0.         -0.95069336  0.31013244][0m
+[36m07-20 21:12:55.642 [DEBUG] [robojudo.tools.dof] [DoF] override default_pos with [-0.1, 0.0, 0.0, 0.3, -0.2, 0.0, -0.1, 0.0, 0.0, 0.3, -0.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0][0m
+[36m07-20 21:12:55.643 [DEBUG] [robojudo.tools.dof] [DoF] override stiffness with [150, 150, 150, 300, 80, 20, 150, 150, 150, 300, 80, 20, 400, 400, 400, 40, 40, 40, 40, 20, 20, 20, 40, 40, 40, 40, 20, 20, 20][0m
+[36m07-20 21:12:55.643 [DEBUG] [robojudo.tools.dof] [DoF] override damping with [2, 2, 2, 4, 2, 1, 2, 2, 2, 4, 2, 1, 15, 15, 15, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2][0m
+[36m07-20 21:12:55.643 [DEBUG] [robojudo.tools.dof] [DoF] override torque_limits with [88, 139, 88, 139, 50, 50, 88, 139, 88, 139, 50, 50, 88, 50, 50, 40, 40, 18, 18, 10, 10, 10, 40, 40, 18, 18, 10, 10, 10][0m
+[33m07-20 21:12:55.644 [WARNING] [robojudo.pipeline.rl_multi_policy_pipeline] Switched to policy: 0: AMOPolicy[0m
+config=g1_locomimic_beyondmimic
+keyboard_mapping=[ -> [POLICY_MIMIC]; ] -> [POLICY_LOCO]
+mimic_policy=Dance_wose
+locomotion_command=forward_vel_x=0.55
+dt=0.02
+fps=20
+simulation_steps=2750
+frames=1100
+duration_seconds=55.000
+keyboard_event=t=15.00: key=[ -> [POLICY_MIMIC]
+keyboard_event=t=40.00: key=] -> [POLICY_LOCO]
+root_xy_trace=t=0.0:xy=(-0.010,-0.000);t=5.0:xy=(-0.341,0.885);t=10.0:xy=(-1.328,0.643);t=15.0:xy=(-1.254,-0.284);t=20.0:xy=(-0.915,-0.547);t=25.0:xy=(-0.965,-0.546);t=30.0:xy=(-0.948,-0.508);t=35.0:xy=(-1.052,-0.502);t=40.0:xy=(-1.180,-1.069);t=45.0:xy=(-0.557,-1.757);t=50.0:xy=(0.383,-1.391);t=55.0:xy=(0.175,-0.478)
+status_counts=policy=0;interp=END:26;policy=0;interp=IDLE:1400;policy=0;interp=IN_PROGRESS:150;policy=1;interp=IDLE:1150;policy=1;interp=START:24
+saved_video=/home/hiamichenha/unitree_h1_learn/validation/robojudo_g1_walk_dance_switch_55s_20fps.mp4
+
+                                                             [A
+
+                                                            [A[A
+
+
+                                                       [A[A[A

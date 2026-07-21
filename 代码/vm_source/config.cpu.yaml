@@ -1,0 +1,35 @@
+# CPU fallback for the recorded "Transmitting the red stick" dataset.
+# It keeps the ACT training objective but uses a smaller ResNet-18 model because
+# the current VMware guest has no CUDA-capable device exposed to PyTorch.
+ckpt_dir: "ACT/ckpt_models_cpu"
+num_epochs: 2000
+save_every: 200
+device: "cpu"
+num_workers: 0
+
+temporal_agg: True
+policy_class: "ACT"
+backbone: "resnet18"
+seed: 1
+
+dataset_dir: "/DataCollecter/dataset_transmitting_red_stick/"
+num_episodes:
+episode_len:
+camera_names: ["angle", "top"]
+xml_dir:
+
+state_dim: 32
+action_dim: 32
+lr_backbone: 0.00001
+enc_layers: 1
+dec_layers: 2
+nheads: 4
+qpos_noise_std: 0
+DT: 0.02
+
+lr: 0.00005
+kl_weight: 10
+hidden_dim: 128
+dim_feedforward: 512
+chunk_size: 48
+batch_size: 2
