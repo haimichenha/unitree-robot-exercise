@@ -1,5 +1,6 @@
-# Keep the verified, small deliverables in this repository. Do not add raw data,
-# checkpoints, caches, virtual environments, or complete third-party clones.
+# Keep verified deliverables and the explicitly attributed RoboJuDo snapshot.
+# Do not add unrelated raw data, checkpoints, caches, virtual environments,
+# or arbitrary third-party clones.
 *.hdf5
 *.h5
 *.ckpt
@@ -20,3 +21,8 @@ RoboJuDo/
 GR00T/
 *.log
 !证据/G1_策略切换运行日志.log
+
+# Intentional CC BY 4.0 vendor snapshot; see THIRD_PARTY_NOTICES.md.
+!third_party/
+!third_party/RoboJuDo/
+!third_party/RoboJuDo/**
